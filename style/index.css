@@ -1,0 +1,67 @@
+*{font-size: 100%;font-family: 'Open Sans', sans-serif;font-size:1vw}
+
+.menu-container {background:#2A74DF;width:4%;position:fixed;height:100%;}
+
+.menu-container .menu-icon-block {text-align:center;margin-top:15px;}
+
+.menu-container .menu-icon-block img {width:20px;cursor:pointer;}
+
+.menu-exp-container {height: 100%;width: 16%;position: fixed;z-index: 1;top: 0;left: 0;transition: 0.5s;padding-top: 60px;margin-left: 4%;box-shadow: 3px 0px 4px -2px rgba(0, 0, 0, 0.41);}
+
+.menu-exp-container a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 1.3vw;color: black;display: block;transition: 0.1s;}
+
+.menu-exp-container .nav-icon{border-radius:50%;box-shadow:1px 1px 4px 1px rgba(0, 0, 0, 0.25);position:absolute;right:-15px;top:100px;background:white;cursor:pointer;height:30px;width:30px;text-align:center;display:flex;align-items:center;justify-content:center;}
+
+.menu-exp-container .nav-icon img{height:10px;width:10px;position:relative;top:1px;}
+
+#openNavIcon{transform:rotate(180deg)}
+
+#main{transition: margin-left .5s;padding: 30px;margin-left:20%;}
+
+.page-title{margin-bottom:20px;}
+
+/*--------Accordion code starts here---------------*/
+
+.accordion{}
+.accordion .accordion-head{background:#F5F5F5;padding:7px 10px;font-weight:bold;border:1px solid #E0E0E0;cursor:pointer;}
+.accordion .accordion-head img.acc-toggle-icon{float:right;width:20px;margin-top:7px;}
+.accordion .accordion-body{padding:10px;border:1px solid #E0E0E0;display:none;}
+
+/*--------Accordion code ends here---------------*/
+
+.alert-button{background:#2A74DF;color:white;border:none;border-radius:7px;font-size:1.2vw;padding:7px 30px;float:right;margin:20px 0;box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+table{margin-top:30px;}
+
+table thead{border:1px solid #E0E0E0;}
+
+table th{background:#F5F5F5;padding:7px 10px;}
+
+table tbody{border:1px solid #E0E0E0;}
+
+table td{padding:7px 10px;vertical-align:top;}
+
+table td input[type='checkbox']{height:16px;width:16px;cursor:pointer;}
+
+.edit-btn{background:#E9F1FC;border:none;color:#2A74DF;font-size:1vw;margin-top:5px}
+
+.edit-btn i{font-weight:bold;font-size:14px;}
+
+ul{padding-left:0px;}
+
+ul li{float:left;margin-left:20px;font-size:12px;font-weight:bold;color:#2156A7;}
+
+ul li span{position:relative;left:-5px;}
+
+ul li::marker{float:left;margin-left:20px;color:#C4C4C4;}
+
+
+/*----------------------Mobile view starts here---------------------------------------*/
+
+
+@media (max-width: 768px) {
+
+}
+
+
+/*----------------------Mobile view ends here---------------------------------------*/

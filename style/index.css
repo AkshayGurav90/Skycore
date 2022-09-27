@@ -62,6 +62,7 @@ ul li::marker{float:left;margin-left:20px;color:#C4C4C4;}
 
 
 @media (max-width: 768px) {
+    *{font-size:1.6vw;}
     .menu-container{height:40px;width:100%;top:0;text-align:right;z-index:100;}
     .menu-container .menu-icon-block{display:inline-block;margin-top:0;}
     .menu-container .menu-icon-block img{margin:10px;height:20px;}
@@ -71,6 +72,12 @@ ul li::marker{float:left;margin-left:20px;color:#C4C4C4;}
     .menu-container .mob-nav-icon{display:inline-block;}
     i.fa-bars,i.fa-times{color:white;font-size:20px;margin:0 20px;position:relative;top:6px;}
     .menu-exp-container a{border-bottom:1px solid #d6d6d6;}
+
+    .page-title{font-size:3vw;}
+    .accordion .accordion-head{font-size:1.8vw}
+    .alert-button{font-size:2vw;}
+    /*table th,table td,ul li span,.edit-btn,.edit-btn i{font-size:1.6vw;}*/
+    .edit-btn,.edit-btn i{font-size:1.6vw;}
 }
 
 

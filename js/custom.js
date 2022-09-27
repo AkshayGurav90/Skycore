@@ -22,6 +22,16 @@ function closeNav() {
     $("#openNavIcon,#closeNavIcon").toggle();
 }
 
+function openMobNav() {
+    $("#mySidenav").css('width', '50%');
+    $("#openMobIcon, #closeMobIcon").toggle();
+}
+
+function closeMobNav() {
+    $("#mySidenav").css('width', '0');
+    $("#openMobIcon, #closeMobIcon").toggle();
+}
+
 function slideToggle() {
     $('.accordion-body').slideToggle();
 }

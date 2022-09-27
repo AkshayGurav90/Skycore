@@ -64,8 +64,10 @@ ul li::marker{float:left;margin-left:20px;color:#C4C4C4;}
     .menu-container .menu-icon-block{display:inline-block;margin-top:0;}
     .menu-container .menu-icon-block img{margin:10px;height:20px;}
     #main{margin-left:0;margin-top:40px;}
-    .menu-exp-container{margin-left:0;background:white;}
+    .menu-exp-container{margin-left:0;background:white;left:auto;right:0;width:0;}
     .menu-exp-container .nav-icon{display:none;}
+    .menu-container .mob-nav-icon{display:inline-block;}
+    i.fa-bars,i.fa-times{color:white;font-size:20px;margin:0 20px;position:relative;top:6px;}
 }
 
 
